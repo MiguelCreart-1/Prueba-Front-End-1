@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/lato-medium-webfont.eot');
+    src: url('fonts/lato-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-medium-webfont.woff2') format('woff2'),
+         url('fonts/lato-medium-webfont.woff') format('woff'),
+         url('fonts/lato-medium-webfont.svg#latomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .text-platzi {
   color: #97c93e !important;
 }
@@ -12,13 +24,29 @@
 }
 
 #header img {
-  width: 80px;
+  width: 280px;
 }
 
 #main .carousel-inner img {
   max-height: 70vh;
   object-fit: cover;
   filter: grayscale(70%);
+}
+
+
+li a span {
+display: block;
+    margin-bottom: -5px;
+	font-family: 'lato';
+}
+
+li a {
+font-family: 'lato';
+}
+
+div#navbar ul.navbar-nav.ml-auto li.nav-item {
+    text-align: center;
+    padding-right: 2em;
 }
 
 #carousel {
