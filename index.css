@@ -44,16 +44,39 @@ li a {
 font-family: 'lato';
 }
 
+h1,p {
+font-family: 'lato';
+}
+
+body {
+    background-color: #eee;
+}
+
 div#navbar ul.navbar-nav.ml-auto li.nav-item {
     text-align: center;
     padding-right: 2em;
 }
 
-#carousel {
+#carouselExampleControls {
   position: relative;
 }
 
-#carousel .overlay {
+.container.Overlay-Slider-1 .text-left {
+    display: inline-block!important;
+}
+
+.container.Overlay-Slider-1.pt-5 h1 {
+    background-color: yellow;
+    color: black;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    padding-left: 0.3em;
+    padding-right: 1em;
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+#carouselExampleControls .overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -63,8 +86,7 @@ div#navbar ul.navbar-nav.ml-auto li.nav-item {
   color: white;
 }
 
-#carousel .overlay .container,
-#carousel .overlay .row {
+#carouselExampleControls .overlay .container {
   height: 100%;
 }
 
