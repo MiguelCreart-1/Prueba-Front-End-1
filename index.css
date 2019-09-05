@@ -10,6 +10,35 @@
 
 }
 
+@media only screen and (max-width:560px){
+
+h1 {
+    font-size: 1.2rem;
+  }
+
+}
+
+nav#header {
+    background-color: 000!important;
+}
+
+.has-search span {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.form-group.has-search input.form-control {
+    padding-left: 2em;
+    border-radius: 15px;
+}
+
 .text-platzi {
   color: #97c93e !important;
 }
@@ -50,6 +79,11 @@ h5.card-title.text-center {
     padding-bottom: 0.4em;
 }
 
+button#dropdownMenu2 {
+    background-color: #00000000;
+    border: none;
+}
+
 li a {
 font-family: 'lato';
 }
@@ -62,10 +96,12 @@ body {
     background-color: #eee;
 }
 
+
 div#navbar ul.navbar-nav.ml-auto li.nav-item {
     text-align: center;
-    padding-right: 2em;
+    padding-right: 1em;
 }
+
 
 #carouselExampleControls {
   position: relative;
